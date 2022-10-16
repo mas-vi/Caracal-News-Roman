@@ -51,6 +51,8 @@ body {
     background-color: white;
     padding: 20px;
     padding-right: 40px;
+    max-height: 800px;
+    overflow: auto;
   }
   
 
@@ -82,3 +84,13 @@ img {
     font-size: 20px;
 }
 
+.publicitate
+{
+    background-color: rgb(241, 175, 180);
+    padding: 5px;
+}
+
+.anunt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: wavy;
+}

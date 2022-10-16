@@ -50,6 +50,7 @@ body {
     flex:80%;
     background-color: white;
     padding: 20px;
+    padding-right: 40px;
   }
   
 
@@ -75,3 +76,9 @@ img {
     color:red
     
 }
+
+.art
+{
+    font-size: 20px;
+}
+

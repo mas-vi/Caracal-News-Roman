@@ -23,12 +23,13 @@ body {
     display: flex;
     background-color: rgb(16, 15, 15);
     padding-left: 40px;
+    justify-content: center;
+
 }
 .navbar a {
     color:white;
-    padding: 15px 20px;
-    text-decoration: none;
-    text-align: center;
+    padding: 20px 100px;
+    justify-content: center;
 }
 .navbar a:hover
 {
@@ -37,7 +38,6 @@ body {
 }
 .main {  
     display: flex;
-    flex-wrap: wrap;
   }
 
 .left {
@@ -69,8 +69,9 @@ img {
     padding: 5px;
 }
 
-@media screen and (max-width: 700px) {
-    .main, .navbar {   
-      flex-direction: column;
-    }
+.title {
+    font-size: 50px;
+    text-decoration: underline;
+    color:red
+    
 }

@@ -1,2 +1,2 @@
 # Caracal-News-Roman
-Don't pay to much attention too this!
+Don't pay too much attention too this!

@@ -14,9 +14,9 @@ body {
 
 .header {
     padding: 60px;
+    flex:50%;
     text-align: center;
     color: white;
-    background: rgb(5, 94, 94);
 }
 
 .navbar {
@@ -64,6 +64,7 @@ body {
 img {
     max-width: 100%;
     max-height: 100%;
+    
 }
 
 .form {
@@ -92,4 +93,19 @@ img {
 .anunt {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: wavy;
+}
+
+.headermain {
+    display:flex;
+    background: rgb(5, 94, 94);
+}
+
+.part {
+    flex: 25%;
+    padding: 60px;
+
+}
+
+a:hover {
+    color:red;
 }

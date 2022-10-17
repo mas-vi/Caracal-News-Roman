@@ -88,6 +88,7 @@ img {
 {
     background-color: rgb(241, 175, 180);
     padding: 5px;
+    justify-content: center;
 }
 
 .anunt {
@@ -108,4 +109,11 @@ img {
 
 a:hover {
     color:red;
+}
+
+.logo 
+{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
 }

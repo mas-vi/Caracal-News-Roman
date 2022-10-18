@@ -120,10 +120,7 @@ a:hover {
 @media screen and(max-width: 800px) {
     .top, .headermain, .header, .navbar, .publicitate, .form, .main, .left, .right 
     {
-        width: 100%;
+        width: auto;
     }
-    .main
-    {
-        flex-wrap: wrap;
-    }
+    
 }

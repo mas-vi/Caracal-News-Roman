@@ -118,7 +118,7 @@ a:hover {
     padding: 20px;
 }
 @media screen and(max-width: 800px) {
-    .top, .headermain, .header, .navbar, .publicitate, .form
+    .top, .headermain, .header, .navbar, .publicitate, .form, .main, .left, .right 
     {
         width: 100%;
     }

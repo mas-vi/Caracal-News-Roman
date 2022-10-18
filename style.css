@@ -119,9 +119,13 @@ a:hover {
 }
 
 @media only screen and (max-device-width: 1024px) {
-    .top, .header, .navbar, .main, .left, .right, .footer, .form, .title, .art, .publicitate, .anunt, .headermain,.part, .logo, .anunt
+    .top, .header, .navbar, .main, .left, .right, .footer, .form, .title, .art, .publicitate, .anunt,.part, .logo, .anunt
     {
         width: 100%;
         flex-wrap: wrap;
+    }
+    .headermain {
+        width: 100%;
+        flex-wrap: wrap-reverse;
     }
 }

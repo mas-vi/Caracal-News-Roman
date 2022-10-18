@@ -117,10 +117,10 @@ a:hover {
     height: 80px;
     padding: 20px;
 }
-@media screen and(max-width: 800px) {
-    .top, .headermain, .header, .navbar, .publicitate, .form, .main, .left, .right 
+
+@media only screen and (max-device-width: 1024px) {
+    .top, .header, .navbar, .main, .left, .right, .footer, .form, .title, .art, .publicitate, .anunt, .headermain,.part, .logo, .anunt
     {
-        width: auto;
+        width: 100%;
     }
-    
 }

@@ -117,3 +117,9 @@ a:hover {
     height: 80px;
     padding: 20px;
 }
+@media screen and(max-width: 800px) {
+    .top, .headermain, .header, .navbar, .publicitate, .form
+    {
+        width: 100%;
+    }
+}

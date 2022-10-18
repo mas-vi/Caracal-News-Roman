@@ -122,5 +122,6 @@ a:hover {
     .top, .header, .navbar, .main, .left, .right, .footer, .form, .title, .art, .publicitate, .anunt, .headermain,.part, .logo, .anunt
     {
         width: 100%;
+        flex-wrap: wrap;
     }
 }

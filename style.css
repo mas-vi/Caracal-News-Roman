@@ -122,7 +122,8 @@ a:hover {
     {
         width: 100%;
     }
-    .headermain {
+    .main
+    {
         flex-wrap: wrap;
     }
 }

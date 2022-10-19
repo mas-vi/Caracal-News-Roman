@@ -119,7 +119,7 @@ a:hover {
 }
 
 @media only screen and (max-device-width: 1024px) {
-    .top, .header, .navbar, .left, .right, .footer, .form, .title,.headermain, .art, .publicitate, .anunt,.part, .logo, .anunt
+    .top, .header, .navbar, .left, .right, .footer, .form, .title,.headermain, .art, .publicitate, .anunt,.part, .logo, .anunt, form
     {
         width: 100%;
         flex-wrap: wrap;
@@ -130,6 +130,9 @@ a:hover {
     }
     .headermain {
         flex-direction: column;
+    }
+    .logo {
+        padding: auto;
     }
     
 }

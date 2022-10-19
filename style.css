@@ -125,10 +125,12 @@ form {
 @media only screen and (max-device-width: 1024px) {
     .top, .header, .navbar, .left, .right, .footer, .form, .title,.headermain, .art, .publicitate, .anunt,.part, .anunt, form
     {
+        display: flex;
         width: 100%;
         flex-wrap: wrap;
     }
     .main {
+        display: flex;
         width: 100%;
         flex-wrap: wrap-reverse;
     }
@@ -136,6 +138,7 @@ form {
         flex-direction: column;
     }
     .logo {
+        display: flex;
         padding: auto;
         flex-wrap: wrap;
         width: auto;

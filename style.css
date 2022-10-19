@@ -118,6 +118,10 @@ a:hover {
     padding: 20px;
 }
 
+form {
+    flex: 100%;
+}
+
 @media only screen and (max-device-width: 1024px) {
     .top, .header, .navbar, .left, .right, .footer, .form, .title,.headermain, .art, .publicitate, .anunt,.part, .logo, .anunt, form
     {
@@ -133,6 +137,10 @@ a:hover {
     }
     .logo {
         padding: auto;
+    }
+    .link {
+        width: 100%;
+        flex-wrap: wrap;
     }
     
 }

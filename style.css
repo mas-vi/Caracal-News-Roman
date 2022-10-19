@@ -128,5 +128,8 @@ a:hover {
         width: 100%;
         flex-wrap: wrap-reverse;
     }
+    .headermain {
+        flex-direction: column;
+    }
     
 }

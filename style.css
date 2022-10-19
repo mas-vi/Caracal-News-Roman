@@ -123,7 +123,7 @@ form {
 }
 
 @media only screen and (max-device-width: 1024px) {
-    .top, .header, .navbar, .left, .right, .footer, .form, .title,.headermain, .art, .publicitate, .anunt,.part, .logo, .anunt, form
+    .top, .header, .navbar, .left, .right, .footer, .form, .title,.headermain, .art, .publicitate, .anunt,.part, .anunt, form
     {
         width: 100%;
         flex-wrap: wrap;
@@ -137,10 +137,10 @@ form {
     }
     .logo {
         padding: auto;
-    }
-    .link {
-        width: 100%;
         flex-wrap: wrap;
+        width: auto;
     }
+    
+    
     
 }
